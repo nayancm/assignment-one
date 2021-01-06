@@ -1,3 +1,205 @@
 body{
-    background-color: lightgray;
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
 }
+body p{
+    color: dimgrey;
+    font-size: 13px;
+}
+
+/* Nav area start here==================================================*/
+.nav a{
+    text-decoration: none;
+    color: #4B4B4B;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+.nav{
+    width: 80%;
+    height: 80px;
+    margin: 2% 10%;
+    text-align: right;
+}
+/* Nav area end here======================================================*/
+
+
+
+/* Name area start here===================================================*/
+#name-area{
+    width: 80%;
+    height: 450px;
+    margin: 2% 10%;
+}
+.name-half-left{
+    width: 48%;
+    float: left;
+    padding-right: 1%;
+    margin-top: 20px;
+}
+.name-half-left h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0px;
+}
+.blue-highlight{
+    color: #363958;
+}
+
+.tomato-highlight{
+    color: #FF8367;
+}
+.hire-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(#F56160, #FA7261);
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+#name-area p{
+    margin-bottom: 40px;
+}
+.name-half-right{
+    width: 48%;
+    float: left;
+    
+}
+.name-half-right img{
+    width: 450px;
+    height: 450px;
+    margin-left: 50px;
+}
+/* Name area end here==========================================================*/
+
+
+
+/* About area start here=======================================================*/
+#about-area{
+    width: 80%;
+    height: 460px;
+    margin: 2% 10%;
+}
+
+.about-half-left{
+    width: 48%;
+    *height: 400px;
+    float: left;
+}
+.about-half-left img{
+    width: 450px;
+    height: 450px;
+    margin-right: 50px;
+}
+.about-half-right{
+    width: 48%;
+    *height: 400px;
+    float:left;
+    margin-top: 20px;
+}
+.about-half-right h1{
+    font-size: 40px;
+}
+.about-half-right p{
+    margin-bottom: 50px;
+}
+.download-button{
+    text-decoration: none;
+    background-image: linear-gradient(#F56260, #FB7562);
+    border-radius: 5px;
+    color: white;
+    padding: 20px 40px;
+}
+/* About area end here=======================================================*/
+
+
+/* Project area start here=======================================================*/
+#project-area{
+    width: 84.5%;
+    height: 500px;
+    background-color: #F8F9FC;
+    padding: 8%;
+}
+#project-area h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+}
+.one-third{
+    width: 29%;
+    height: 300px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #EDEEF0;
+    float: left;
+}
+
+.one-third img{
+    width: 100%;
+    height: 180px;
+}
+
+#middle-third{
+    margin: 0px 30px;
+}
+/* Project area end here=======================================================*/
+
+
+/* Inquary area start here=======================================================*/
+#inquary-area{
+    width: 100%;
+    height: 320px;
+    padding-top: 80px;
+    background-color: white;
+}
+.chat-area{
+    width: 876px;
+    height: 252px;
+    margin-left: 220px;
+    background-image: url(images/chat.png);
+    border-radius: 20px;
+}
+.chat-area h1{
+    color: white;
+    font-size: 40px;
+    margin: 0px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.chat-area a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 35px;
+    background-image: linear-gradient(#F56260, #FB7562);
+    border-radius: 10px;
+    margin-left: 650px;
+}
+/* Inquary area end here=======================================================*/
+
+
+
+/* Footer area start here=======================================================*/
+#footer-area{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+#footer-area h2{
+    color: dimgrey;
+    margin: 0px;
+}
+#footer-area h1{
+    font-size: 30px;
+    margin-top: 2px;
+}
+.icon{
+    float: left;
+    padding-left: 560px;
+}
+.icon img{
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+/* Footer area end here=======================================================*/
